@@ -26,5 +26,6 @@ gene list.
 |---|---|
 | `feature_counts.tsv`, `feature_associations*.tsv` | `scripts/summarise_junction_features.py` |
 | `gee_coefficients.tsv` | `scripts/fit_gee_models.py` |
-| `extrapolation_counts/`, `cost_counts/` | `scripts/count_genes_from_majiq.py`, `count_junctions_from_majiq.py` |
+| `extrapolation_counts/` | `scripts/count_genes_from_majiq.py`, `count_junctions_from_majiq.py`, one line per MAJIQ output file |
+| `cost_counts/` | detections per subsample count and expression level, from the MAJIQ output |
 | `nease/` | NEASE, run per sample and depth on the DICAST-unified events |
